@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Geography Lesson</string>
+    <string name="lesson_learnt_label">lesson learnt</string>
+    <string name="congrats_text">Congratulations. Now, enjoy your free time.</string>
+</resources>
