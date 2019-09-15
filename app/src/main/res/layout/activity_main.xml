@@ -30,7 +30,7 @@
             android:layout_width="@dimen/imageWidth"
             android:layout_height="@dimen/imageHeight"
             android:layout_marginBottom="@dimen/imageMarginBottom"
-            android:src="@drawable/ic_country"
+            android:src="@drawable/country_image"
             app:layout_constraintBottom_toTopOf="@+id/country_title_text"
             app:layout_constraintDimensionRatio="H, 1:1"
             app:layout_constraintEnd_toEndOf="parent"
