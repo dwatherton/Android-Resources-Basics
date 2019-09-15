@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLessonLearntClicked(View view) {
-        String congratsMessage = null;
         // TODO 5: Get congrats_text resource -->
+        String congratsMessage = getResources().getString(R.string.congrats_text);
         // TODO 6: Once congratsMessage is initialized, uncomment the two following lines
-        // Snackbar snackbar = Snackbar.make(rootLayout, congratsMessage, Snackbar.LENGTH_LONG);
-        // snackbar.show();
+        Snackbar snackbar = Snackbar.make(rootLayout, congratsMessage, Snackbar.LENGTH_LONG);
+        snackbar.show();
     }
 }

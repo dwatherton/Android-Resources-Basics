@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Styles.xml Resource Values -->
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="longTextSize">16sp</dimen>
+    <dimen name="longLineHeight">24dp</dimen>
+    <dimen name="buttonPaddingStart">24dp</dimen>
+    <dimen name="buttonPaddingEnd">24dp</dimen>
+
+    <!-- Activity_Main.xml Resource Values-->
+    <dimen name="constraintLayoutPadding">24dp</dimen>
+    <dimen name="imageWidth">128dp</dimen>
+    <dimen name="imageHeight">0dp</dimen>
+    <dimen name="imageMarginBottom">12dp</dimen>
+    <dimen name="descriptionMarginBottom">24dp</dimen>
+    <dimen name="titleMarginBottom">24dp</dimen>
+</resources>
