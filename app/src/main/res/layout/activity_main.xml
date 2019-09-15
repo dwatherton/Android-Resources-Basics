@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp"
+        android:padding="@dimen/constraintLayoutPadding"
         tools:context=".MainActivity">
 
         <Button
@@ -27,9 +27,9 @@
 
         <ImageView
             android:id="@+id/country_image"
-            android:layout_width="128dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
+            android:layout_width="@dimen/imageWidth"
+            android:layout_height="@dimen/imageHeight"
+            android:layout_marginBottom="@dimen/imageMarginBottom"
             android:src="@drawable/ic_country"
             app:layout_constraintBottom_toTopOf="@+id/country_title_text"
             app:layout_constraintDimensionRatio="H, 1:1"
@@ -44,7 +44,7 @@
             style="@style/AppTheme.LongText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="@dimen/descriptionMarginBottom"
             android:text="Country description"
             app:layout_constraintBottom_toTopOf="@+id/lesson_learnt_button"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
             style="@style/AppTheme.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="@dimen/titleMarginBottom"
             android:text="Country Title"
             app:layout_constraintBottom_toTopOf="@+id/country_description_text"
             app:layout_constraintEnd_toEndOf="parent"
