@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onLessonLearntClicked"
-            android:text="lesson learnt"
+            android:text="@string/lesson_learnt_label"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/descriptionMarginBottom"
-            android:text="Country description"
+            android:text="@string/country_description"
             app:layout_constraintBottom_toTopOf="@+id/lesson_learnt_button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text" />
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/titleMarginBottom"
-            android:text="Country Title"
+            android:text="@string/country_title"
             app:layout_constraintBottom_toTopOf="@+id/country_description_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_chainStyle="packed"
